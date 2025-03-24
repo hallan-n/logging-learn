@@ -12,7 +12,7 @@ class Filtro(Filter):
 
 
 format_handler = Formatter("%(asctime)s:%(levelname)s:%(message)s:%(name)s")
-file_handler = FileHandler("logs.txt", "a", encoding="utf-8")
+file_handler = FileHandler("logging.txt", "a", encoding="utf-8")
 file_handler.setLevel(DEBUG)
 file_handler.setFormatter(format_handler)
 file_handler.addFilter(Filtro())
