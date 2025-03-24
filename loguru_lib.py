@@ -16,7 +16,12 @@ logger.add(
 )
 logger.add(
     "loguru.txt",
-    format="{time:YYYY-MM-DD HH:mm:ss.SSS} <r>{level}</r> <g>{message}</g> {file}:{line}",
+    format=(
+        "{time:YYYY-MM-DD HH:mm:ss.SSS} | "
+        "{level:<8} | "
+        "{file}:{line} | "
+        "{message:<50}"
+    ),
     filter=lambda record: "senha" not in record["message"].casefold(),
     level="DEBUG",
 )

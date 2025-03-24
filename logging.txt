@@ -1,5 +1,5 @@
-2025-03-24 16:14:33,452:DEBUG:Entrei aqui:root
-2025-03-24 16:14:33,452:INFO:Pessoa X logou:root
-2025-03-24 16:14:33,453:ERROR:Erro na solicitação:root
-2025-03-24 16:14:33,453:WARNING:Algo deu errado:root
-2025-03-24 16:14:33,453:CRITICAL:Aplicação parou:root
+2025-03-24 16:58:29,521:DEBUG:Entrei aqui:root
+2025-03-24 16:58:29,522:INFO:Pessoa X logou:root
+2025-03-24 16:58:29,522:ERROR:Erro na solicitação:root
+2025-03-24 16:58:29,523:WARNING:Algo deu errado:root
+2025-03-24 16:58:29,523:CRITICAL:Aplicação parou:root

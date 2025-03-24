@@ -1,11 +1,5 @@
-2025-03-24 16:52:51.941 ERROR Erro na solicitação loguru_lib.py:26
-2025-03-24 16:52:51.942 WARNING Algo deu errado loguru_lib.py:27
-2025-03-24 16:53:03.683 DEBUG Entrei aqui loguru_lib.py:24
-2025-03-24 16:53:03.684 INFO Pessoa X logou loguru_lib.py:25
-2025-03-24 16:53:03.684 ERROR Erro na solicitação loguru_lib.py:26
-2025-03-24 16:53:03.685 WARNING Algo deu errado loguru_lib.py:27
-2025-03-24 16:53:22.108 DEBUG Entrei aqui loguru_lib.py:24
-2025-03-24 16:53:22.109 INFO Pessoa X logou loguru_lib.py:25
-2025-03-24 16:53:22.109 ERROR Erro na solicitação loguru_lib.py:26
-2025-03-24 16:53:22.109 WARNING Algo deu errado loguru_lib.py:27
-2025-03-24 16:53:22.110 CRITICAL O sitema parou loguru_lib.py:29
+2025-03-24 16:57:41.703 | DEBUG    | loguru_lib.py:29 | Entrei aqui                                       
+2025-03-24 16:57:41.704 | INFO     | loguru_lib.py:30 | Pessoa X logou                                    
+2025-03-24 16:57:41.704 | ERROR    | loguru_lib.py:31 | Erro na solicitação                               
+2025-03-24 16:57:41.705 | WARNING  | loguru_lib.py:32 | Algo deu errado                                   
+2025-03-24 16:57:41.705 | CRITICAL | loguru_lib.py:34 | O sitema parou                                    
